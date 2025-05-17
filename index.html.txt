@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Hi, I'm Maruthi Y</h1>
-        <p>Aspiring Software Developer</p>
-    </header>
 
-    <!-- About Me -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm an Information Science graduate from Brindavan College of Engineering. I love building web apps and solving problems with code!</p>
-    </section>
+  <header>
+    <h1>Maruthi Y</h1>
+    <p>Java Full-Stack Developer | Passionate about building real-world applications</p>
+    <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+  </header>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Weather App</h3>
-            <p>Fetches real-time weather using API.</p>
-            <a href="https://github.com/yourusername/weather-app">GitHub</a>
-        </div>
-        <!-- Add more projects -->
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-        <a href="https://github.com/yourusername">GitHub</a>
-    </section>
+    <div class="project">
+      <h3>🎟️ Online Movie Ticket Booking System</h3>
+      <p>A full-stack web application for booking movie tickets. Users can view movies, select showtimes, and reserve seats. Features include user authentication, admin panel for managing movies/shows, and real-time seat availability.</p>
+      <a href="https://github.com/MaruthiY-19/movie-ticket-booking" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🧠 Django Quiz App</h3>
+      <p>An interactive quiz platform built with Django. Users can register, take quizzes, and view results. Admins can create, edit, and delete quiz questions. It features automatic scoring and result tracking.</p>
+      <a href="https://github.com/YOUR_USERNAME/django-quiz-app" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🤖 eBay Automation using Selenium</h3>
+      <p>A Python-based automation script using Selenium to log in, search products, and perform operations on eBay. Designed to simulate user behavior and automate repetitive tasks like item searching and filtering.</p>
+      <a href="https://github.com/YOUR_USERNAME/ebay-selenium-automation" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: maruthiram873@gmail.com</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/YOUR_LINK" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/YOUR_USERNAME" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Maruthi Y. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
